@@ -1,37 +1,108 @@
-## Welcome to GitHub Pages
+<!DOCTYPE html>
+<html lang="pt-br">
+<head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# article: http://ogp.me/ns/article#">
+  <meta charset="UTF-8">
+  <title>DP6 Case - Prova Técnica</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" >
+  <link rel="shortcut icon" href="favicon.ico">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/lightbox.css">
+</head>
+<body class="analise">
+  <div class="lightbox-backdrop"></div>
+  <div class="lightbox">
+    <div class="lightbox-header">
+      <img src="img/montadoras/lorem.png" alt="Lorem" class="lightbox-icon">
+      <span class="lightbox-title">lorum</span>
+      <img class="lightbox-fechar" src="img/icon/x_cinza.png" alt="Fechar Lightbox">
+    </div>
+    <div class="lightbox-content"></div>
+  </div>
+  <link rel="stylesheet" href="css/menu.css">
+  <div class="menu-backdrop"></div>
+  <nav class="menu">
+    <img class="menu-fechar" src="img/icon/x_cinza.png" alt="Fechar Menu">
+    <div class="menu-header"><a href="/" class="menu-home">DP6<br><br>Implementação</a></div>
+    <ul class="menu-lista">
+      <li class="menu-lista-item">
+        <a href="index.html" class="menu-lista-link menu-lista-index">Início</a>
+      </li>
+      <li class="menu-lista-item menu-lista-sublista fechado">
+        <a href="analise.html" class="menu-lista-link menu-lista-analise">Análise</a>
+        <ul class="menu-sublista">
+          <li class="menu-sublista-item">
+            <a href="analise.html#tristique" class="menu-sublista-link">Análise Técnica</a>
+          </li>
+          <li class="menu-sublista-item">
+            <a href="analise.html#conclusoes" class="menu-sublista-link">Conclusões</a>
+          </li>
+        </ul>
+      </li>
+      <li class="menu-lista-item menu-lista-sublista fechado">
+        <a href="sobre.html" class="menu-lista-link menu-lista-sobre">Sobre</a>
+        <ul class="menu-sublista">
+          <li class="menu-sublista-item">
+            <a href="sobre.html#contato" class="menu-sublista-link">Contato</a>
+          </li>
+          <li class="menu-sublista-item">
+            <a href="sobre.html#historia" class="menu-sublista-link">História</a>
+          </li>
+          <li class="menu-sublista-item">
+            <a href="sobre.html#valores" class="menu-sublista-link">Valores</a>
+          </li>
+        </ul>
+      </li>
+      <li class="menu-lista-item">
+        <a href="http://www.dp6.com.br/contato/" target="_blank" class="menu-lista-link menu-lista-contato">Entre em Contato</a>
+      </li>
+      <li class="menu-lista-item">
+        <a href="http://autos.dp6.com.br/autos_revista_vfinal.pdf" class="menu-lista-link menu-lista-download" target="_pdf">Download PDF</a>
+      </li>
+    </ul>
+    <div class="menu-rodape">
+      <a href="http://www.dp6.com.br/" title="DP6 - Bringing Science to Marketing">
+        <img src="img/logo-dp6.png" alt="DP6 - Bringing Science to Marketing">
+      </a>
+    </div>
+  </nav>
+  <header class="cabecalho">
+    <h1>
+      <img src="img/icon/menu.png" alt="Menu" class="cabecalho-menu">
+      <a href="/"><img class="cabecalho-logo" src="img/logo-dp6.png" alt="DP6 Case - Prova Técnica" height="50px"></a>
+      <span></span>
+    </h1>
+  </header>
+  <main>
+    <section>
+      
+<h2 class="secao-titulo">Análise</h2>
+<h3 id="tristique" class="secao-subtitulo">Análise Ténica e resultados</h3>
+<h5 class="subtitulo2">Lorem ipsum dolor</h5><p class="secao-paragrafo"> Análise coletada através do google analytics</span>.<span class="highlight-3 odd">O Google Analytics é uma ferramenta proprietária da Google que monitora e e analisa todo o tipo de tráfego que um site recebe. Ele é gratuito, pode ser instalado em qualquer domínio e mostra informações detalhadas sobre o comportamento dos visitantes em uma página específica.</span> Ut ultrices sodales aliquam. <span class="highlight-1 odd">Duis commodo auctor leo, vitae ornare eros dapibus nec.</span> Vivamus ultricies pellentesque suscipit. Nam a nibh nec augue rutrum volutpat. Quisque ac felis sagittis, facilisis dui in, facilisis velit. Fusce et tristique urna. Nam quis porttitor tortor, sed pellentesque ligula.</p>
+<h5 class="subtitulo2">Morbi et massa vel</h5><p class="secao-paragrafo">Com o Google Analytics, otimizamos as vendas de arte e aumentamos a receita da empresa em 400% em relação ao ano anterior. <span class="highlight-3 even">Acesse dados de outras soluções do Google facilmente enquanto usa o Google Analytics e aproveite um fluxo de trabalho ágil e eficiente.</span> Praesent bibendum cursus vehicula. Nunc pulvinar erat eu ante aliquet, vitae feugiat felis tincidunt. Integer quis semper risus, vel vehicula augue. Phasellus laoreet nulla at urna lobortis fringilla.</p>
+<h5 class="subtitulo2">Sed viverra diam consequat</h5><p class="secao-paragrafo">Sed viverra diam consequat, porttitor odio quis, placerat lacus. Integer tristique nibh lacus, a vehicula nibh blandit nec. Vivamus ipsum augue, tempus nec gravida at, dapibus quis ligula. Vivamus vel rutrum elit. <span class="highlight-2 even">Fusce et condimentum sapien. Curabitur interdum tortor vel consequat finibus. Nam purus urna, dapibus at leo id, consequat feugiat lorem. Maecenas eleifend lacus at efficitur feugiat.</span> <span class="highlight-1 even">Nullam vehicula vestibulum orci, pretium faucibus ipsum commodo cursus.</span> Praesent sit amet magna fringilla, commodo elit sit amet, blandit ipsum. Nunc tortor ante, efficitur quis erat et, blandit consequat sem. Pellentesque nibh quam, eleifend vel felis quis, malesuada condimentum nisi. Proin a est commodo, convallis velit ut, ullamcorper sapien. Ut vehicula dui sit amet euismod posuere. Quisque ut mauris vel felis blandit malesuada eget ac nibh. Maecenas eu felis ipsum.</p><p class="secao-paragrafo"><div class="cards-montadoras"><div class="card card-montadoras" data-name="Lorem" data-id="lorem"><img class="card-image" src="img/montadoras/lorem.png" alt="Lorem"><div class="card-text"><p class="card-title">Lorem</p><p class="card-link">Ver Mais</p></div></div><div class="card card-montadoras" data-name="Ipsum" data-id="ipsum"><img class="card-image" src="img/montadoras/ipsum.png" alt="Ipsum"><div class="card-text"><p class="card-title">Ipsum</p><p class="card-link">Ver Mais</p></div></div><div class="card card-montadoras" data-name="Dolor" data-id="dolor"><img class="card-image" src="img/montadoras/dolor.png" alt="Dolor"><div class="card-text"><p class="card-title">Dolor</p><p class="card-link">Ver Mais</p></div></div></div></p>
+<h3 id="conclusoes" class="secao-subtitulo">Conclusões</h3>
+<h5 class="subtitulo2">O Google Analytics tem soluções para grandes e pequenas empresas que ajudam a entender o que está funcionando e implementar melhorias.</h5><p class="secao-paragrafo">Aproveite ao máximo seus dados com recursos como o Analytics Intelligence, relatórios detalhados e muito mais. <span class="highlight-2 odd">Sed tincidunt orci sed massa viverra pharetra.</span></p><a class="next-page" href="sobre.html">Sobre</a><div class="info-montadora" data-id="lorem"><p class="secao-paragrafo">Suspendisse facilisis neque eget ipsum commodo dictum. In convallis rutrum nisl, quis sagittis libero. Curabitur interdum sagittis dui, non vulputate nunc mollis eu. Quisque egestas cursus leo commodo aliquet. Nam convallis congue risus, maximus sollicitudin lorem aliquam non. Morbi in nibh at ligula aliquam scelerisque. Vestibulum porta tristique venenatis. Aliquam luctus luctus arcu, ut condimentum eros tempor a. Nam egestas posuere nulla, ullamcorper imperdiet sem vestibulum in. Duis vel sagittis risus. Integer sagittis at leo quis hendrerit. Vivamus in suscipit augue. Etiam fringilla mi et lectus consequat porttitor. Proin a ipsum quam. Vestibulum pulvinar pellentesque nisi sit amet rutrum.</p></div><div class="info-montadora" data-id="ipsum"><p class="secao-paragrafo">Proin sed laoreet felis. Vivamus at egestas ante, vel viverra enim. Praesent facilisis erat tempor, suscipit diam vitae, pellentesque justo. Sed finibus ligula massa, vitae aliquet ex tincidunt sed. Aliquam scelerisque nunc a mollis accumsan. Nunc fringilla, diam eu porta gravida, lacus erat aliquet dolor, non consequat ante nisi sed ipsum. Nunc efficitur, mi consequat tincidunt ullamcorper, ligula justo consectetur erat, sed vestibulum purus nisi in dui. Quisque molestie interdum leo, sit amet malesuada urna molestie non. Phasellus eu diam efficitur, tincidunt velit quis, viverra mi. Fusce commodo et quam vel posuere. Nulla elementum orci eu lobortis maximus. Etiam suscipit pellentesque tellus, ac venenatis erat faucibus et. Pellentesque tincidunt magna ac turpis dictum, ut rhoncus turpis tristique.</p><div class="info-montadora" data-id="dolor"><p class="secao-paragrafo">Sed in purus sed neque euismod molestie eget vehicula dolor. Vestibulum ultrices sit amet turpis vel ullamcorper. Sed sit amet metus finibus, ullamcorper mauris in, aliquet dolor. Vivamus ipsum turpis, congue non ante et, sodales semper eros. Nullam rhoncus ipsum odio, id viverra nisl pharetra eu. Fusce blandit libero mi, eget dignissim libero placerat vel. Nulla ultricies iaculis euismod. Vestibulum luctus neque ut justo pulvinar, vel vestibulum lectus dapibus. Praesent quis lacus nec felis vestibulum porttitor quis nec leo. Donec maximus, magna ac pulvinar ultrices, libero neque condimentum arcu, vel consequat leo nibh sed arcu.</p></div>
+    </section>
+  </main>
+  <script src="js/jquery-3.5.1.min.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/tagueamento.js"></script>
+  <script>
+    const analiseMontadoras = function (ev) {
+      const tagtag = ev.target.closest('.card-montadoras');
+      const dataName = el.getAttribute('data-name');
 
-You can use the [editor on GitHub](https://github.com/Deb-L/casedp6Pages/edit/dp6/README.md) to maintain and preview the content for your website in Markdown files.
+      sendEventGA('analise', 'ver_mais', dataName);
+    };
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+    window.addEventListener('load', () => {
+      const Montadoras = __('.card-montadoras');
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Deb-L/casedp6Pages/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+      Montadoras.forEach((el) => {
+        tagtag.addEventListener('click', clickCardsMontadoras);
+      });
+    });
+  </script>
+</body>
+</html>
